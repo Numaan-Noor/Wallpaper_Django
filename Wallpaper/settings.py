@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-%f6rmtt@din992mp$tdj8fe)ct9-&b^g!1r2g7rju-5*))fahz
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['globalwallpaper.space,192.168.1.150']
 
 
 # Application definition
