@@ -76,10 +76,12 @@ WSGI_APPLICATION = 'Wallpaper.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
-        'readonly': False
-
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'wdb',
+        'USER': 'postgres',
+        'PASSWORD': 'database',
+        'HOST': 'localhost',
+        'PORT': '5432',
     }
 }
 
